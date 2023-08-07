@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* {
+  	box-sizing: border-box;
+	margin:0;
+
+}
+
 @font-face {
     font-family: queering_bold;
     src: url("TYPE/Queering-Bold.ttf");
