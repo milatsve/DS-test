@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: queering_bold;
+    src: url("TYPE/Queering-Bold.ttf");
+}
+
+@font-face {
+    font-family: queering_heavy;
+    src: url("TYPE/Queering-Heavy.ttf");
+}
+
+
+@font-face {
+    font-family: queering_medium;
+    src: url("TYPE/Queering-Medium.ttf");
+}
+
+
+@font-face {
+    font-family: queering_regular;
+    src: url("TYPE/Queering-Regular.ttf")
+}
+
+
+@font-face {
+    font-family: queering_semibold;
+    src: url("TYPE/Queering-Semibold.ttf")
+}
+
+
+@font-face {
+    font-family: tasa_orbiter_text;
+    src: url("TYPE/TASAOrbiterText-Regular.otf")
+}
+
+
+
+
+h6 {
+	font: queering_regular;
+	font-size: 18px;
+}
+
+
+h5 {
+	font: queering_regular;
+	font-size: 36px;
+	padding-top: 28px;
+	padding-bottom: 14px;
+}
+
+
+h4 {
+	font: queering_regular;
+	font-size: 54px;
+}
+
+
+h3 {
+	font: queering_regular;
+	font-size: 72px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+
+h2 {
+	font: queering_regular;
+	font-size: 90px;
+}
+
+h1 {
+	font: queering_regular;
+	font-size: 108px;
+}
+
+
+.bfw-secondary-button-border-width {
+	border-width: 2px;
+}
+
+
+p{
+	font-family: tasa_orbiter_text;
+}
+
+.main-text{
+	font-size: 20px;
+	line-height: 34px;
+	letter-spacing: 1%;
+}
+
+
+.large-supplementary-text {
+	font-size: 16px;
+	letter-spacing: 6%;
+	font-weight: bold;
+	padding-bottom: 14px;
+}
+
+
+.small-supplementary-text {
+	font-size: 12px;
+	letter-spacing: 12%;
+	padding-bottom: 84px;
+}
+
+
+.captions {
+	font-size: 16px;
+	letter-spacing: 2%;
+	line-height: 18px;
+}
+
+
+.form-labels {
+	color: #514D54;
+	font-size: 16px;
+	letter-spacing: 1%;
+}
+
+
+
+button {
+	background-color: transparent;
+	width: 60px;
+	height: 180px;
+	font-family: queering_regular;
+	font-size: 27px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+}
+
+
+.bfw-primary-button-purple {
+	background-color: #55186E;
+	border-color: #55186E; 
+	color: white;
+}
+
+
+.bfw-primary-button-purple:hover {
+	background-color: #330B45;
+	border-color: #330B45; 
+}
+
+
+.bfw-primary-button-teal {
+	background-color: #00B0B3;
+	border-color: #00B0B3;
+	color: white;
+}
+
+
+.bfw-primary-button-teal:hover {
+	background-color: #025557;
+	border-color: #025557;
+}
+
+
+.bfw-primary-button-orange {
+	background-color: #F75B0C;
+	border-color: #F75B0C;
+	color: white;
+}
+
+
+.bfw-primary-button-orange:hover {
+	background-color: #C94300;
+	border-color: #C94300;
+}
+
+
+.bfw-primary-button-blue {
+	background-color: #33B4F5;
+	border-color: #33B4F5;
+	color: white;
+}
+
+
+.bfw-primary-button-blue:hover {
+	background-color: #095B85;
+	border-color: #095B85;
+}
+
+
+.bfw-secondary-button-purple {
+	background-color: transparent;
+	border-color: #7C2F9C;
+	color: #7C2F9C;
+}
+
+
+.bfw-secondary-button-purple:hover {
+	background-color: #7C2F9C;
+	color: white;
+}
+
+
+.bfw-secondary-button-teal {
+	background-color: transparent;
+	border-color: #00B0B3;
+	color: #00B0B3;
+}
+
+
+.bfw-secondary-button-teal:hover {
+	background-color: #00B0B3;
+	color: white;
+}
+
+
+.bfw-secondary-button-orange {
+	background-color: transparent;
+	border-color: #F75B0C;
+	color: #F75B0C;
+}
+
+
+.bfw-secondary-button-orange:hover {
+	background-color: #F75B0C;
+	color: white;
+}
+
+
+.bfw-secondary-button-pink {
+	background-color: transparent;
+	border-color: #F533B4;
+	color: #F533B4;
+}
+
+
+.bfw-secondary-button-pink:hover {
+	background-color: #F533B4;
+	color: white;
+}
+
+
+.feature-card {
+	height: 318px;
+	width: 33%;
+	padding-left: 27px;
+	padding-right: 27px;
+}
+
+
+.feature-card-narrow {
+	height: 318px;
+	width: 20%;
+	padding-left: 27px;
+	padding-right: 27px;
+}
+
+.content-opening {
+	width: 55%;
+	height: 441px;
+}
+
+.form-field {
+	height: 59px;
+	width: 33%;
+}
